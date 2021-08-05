@@ -1,0 +1,2501 @@
+{
+  "status": "Ok",
+  "items": {
+    "DAI-PLN": {
+      "market": {
+        "code": "DAI-PLN",
+        "first": { "currency": "DAI", "minOffer": "1.08", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154132562",
+      "highestBid": "3.84",
+      "lowestAsk": "3.88",
+      "rate": "3.88",
+      "previousRate": "3.87"
+    },
+    "GRT-USDT": {
+      "market": {
+        "code": "GRT-USDT",
+        "first": { "currency": "GRT", "minOffer": "0.15", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628148713196",
+      "highestBid": "0.643251",
+      "lowestAsk": "0.749999",
+      "rate": "0.794999",
+      "previousRate": "0.640643"
+    },
+    "LTC-USD": {
+      "market": {
+        "code": "LTC-USD",
+        "first": { "currency": "LTC", "minOffer": "0.0306", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152098981",
+      "highestBid": "135.36",
+      "lowestAsk": "151.61",
+      "rate": "144",
+      "previousRate": "143.97"
+    },
+    "LML-PLN": {
+      "market": {
+        "code": "LML-PLN",
+        "first": { "currency": "LML", "minOffer": "49.5", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148733942",
+      "highestBid": "0.08",
+      "lowestAsk": "0.09",
+      "rate": "0.09",
+      "previousRate": "0.08"
+    },
+    "BSV-EUR": {
+      "market": {
+        "code": "BSV-EUR",
+        "first": { "currency": "BSV", "minOffer": "0.0387", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628144118677",
+      "highestBid": "114.3",
+      "lowestAsk": "128.4",
+      "rate": "115.13",
+      "previousRate": "114.31"
+    },
+    "LTC-ETH": {
+      "market": {
+        "code": "LTC-ETH",
+        "first": { "currency": "LTC", "minOffer": "0.00083", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154124878",
+      "highestBid": "0.05227545",
+      "lowestAsk": "0.05282093",
+      "rate": "0.05255998",
+      "previousRate": "0.05226547"
+    },
+    "LML-BTC": {
+      "market": {
+        "code": "LML-BTC",
+        "first": { "currency": "LML", "minOffer": "5.8", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628077492150",
+      "highestBid": "0.00000052",
+      "lowestAsk": "0.00000055",
+      "rate": "0.00000052",
+      "previousRate": "0.00000055"
+    },
+    "ZRX-EUR": {
+      "market": {
+        "code": "ZRX-EUR",
+        "first": { "currency": "ZRX", "minOffer": "5.76", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153698590",
+      "highestBid": "0.74",
+      "lowestAsk": "0.78",
+      "rate": "0.77",
+      "previousRate": "0.65"
+    },
+    "BSV-USDT": {
+      "market": {
+        "code": "BSV-USDT",
+        "first": { "currency": "BSV", "minOffer": "0.00085", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628148225034",
+      "highestBid": "138",
+      "lowestAsk": "154.02",
+      "rate": "138",
+      "previousRate": "154.099999"
+    },
+    "BTC-USDC": {
+      "market": {
+        "code": "BTC-USDC",
+        "first": { "currency": "BTC", "minOffer": "0.000012", "scale": 8 },
+        "second": { "currency": "USDC", "minOffer": "0.432", "scale": 8 }
+      },
+      "time": "1628154169011",
+      "highestBid": "38416.53333",
+      "lowestAsk": "39099.97998",
+      "rate": "38839.389999",
+      "previousRate": "38260.980043"
+    },
+    "BSV-BTC": {
+      "market": {
+        "code": "BSV-BTC",
+        "first": { "currency": "BSV", "minOffer": "0.0008", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154152354",
+      "highestBid": "0.00354966",
+      "lowestAsk": "0.00399999",
+      "rate": "0.00375512",
+      "previousRate": "0.00369444"
+    },
+    "ZRX-BTC": {
+      "market": {
+        "code": "ZRX-BTC",
+        "first": { "currency": "ZRX", "minOffer": "0.13", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154100341",
+      "highestBid": "0.00002288",
+      "lowestAsk": "0.00002314",
+      "rate": "0.00002314",
+      "previousRate": "0.00002299"
+    },
+    "DOT-BTC": {
+      "market": {
+        "code": "DOT-BTC",
+        "first": { "currency": "DOT", "minOffer": "0.0062", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154131496",
+      "highestBid": "0.0004808",
+      "lowestAsk": "0.0004904",
+      "rate": "0.00048215",
+      "previousRate": "0.00048217"
+    },
+    "DOGE-USDT": {
+      "market": {
+        "code": "DOGE-USDT",
+        "first": { "currency": "DOGE", "minOffer": "0.55", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628153235758",
+      "highestBid": "0.2",
+      "lowestAsk": "0.21278",
+      "rate": "0.21293",
+      "previousRate": "0.214995"
+    },
+    "NEU-EUR": {
+      "market": {
+        "code": "NEU-EUR",
+        "first": { "currency": "NEU", "minOffer": "26.1", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628113770811",
+      "highestBid": "0.11",
+      "lowestAsk": "0.18",
+      "rate": "0.17",
+      "previousRate": "0.09"
+    },
+    "GRT-PLN": {
+      "market": {
+        "code": "GRT-PLN",
+        "first": { "currency": "GRT", "minOffer": "1.71", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170128",
+      "highestBid": "2.51",
+      "lowestAsk": "2.57",
+      "rate": "2.53",
+      "previousRate": "2.54"
+    },
+    "XTZ-USDT": {
+      "market": {
+        "code": "XTZ-USDT",
+        "first": { "currency": "XTZ", "minOffer": "0.039", "scale": 6 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154161628",
+      "highestBid": "3.06",
+      "lowestAsk": "3.297997",
+      "rate": "3.059",
+      "previousRate": "3.055"
+    },
+    "AMLT-PLN": {
+      "market": {
+        "code": "AMLT-PLN",
+        "first": { "currency": "AMLT", "minOffer": "31.5", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628141273004",
+      "highestBid": "0.13",
+      "lowestAsk": "0.14",
+      "rate": "0.14",
+      "previousRate": "0.13"
+    },
+    "ETH-USDC": {
+      "market": {
+        "code": "ETH-USDC",
+        "first": { "currency": "ETH", "minOffer": "0.00017", "scale": 8 },
+        "second": { "currency": "USDC", "minOffer": "0.432", "scale": 8 }
+      },
+      "time": "1628154169292",
+      "highestBid": "2612.010001",
+      "lowestAsk": "2645.864094",
+      "rate": "2668.505887",
+      "previousRate": "2700"
+    },
+    "BOB-BTC": {
+      "market": {
+        "code": "BOB-BTC",
+        "first": { "currency": "BOB", "minOffer": "15", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628066709007",
+      "highestBid": "0.0000002",
+      "lowestAsk": "0.00000021",
+      "rate": "0.00000021",
+      "previousRate": "0.0000002"
+    },
+    "GGC-BTC": {
+      "market": {
+        "code": "GGC-BTC",
+        "first": { "currency": "GGC", "minOffer": "0.093", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154053154",
+      "highestBid": "0.00003032",
+      "lowestAsk": "0.00003096",
+      "rate": "0.00003198",
+      "previousRate": "0.00003033"
+    },
+    "XRP-BTC": {
+      "market": {
+        "code": "XRP-BTC",
+        "first": { "currency": "XRP", "minOffer": "0.17", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154157998",
+      "highestBid": "0.00001858",
+      "lowestAsk": "0.00001863",
+      "rate": "0.00001857",
+      "previousRate": "0.00001848"
+    },
+    "DASH-PLN": {
+      "market": {
+        "code": "DASH-PLN",
+        "first": { "currency": "DASH", "minOffer": "0.00729", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154154419",
+      "highestBid": "611",
+      "lowestAsk": "613.27",
+      "rate": "612",
+      "previousRate": "611.31"
+    },
+    "ETH-GBP": {
+      "market": {
+        "code": "ETH-GBP",
+        "first": { "currency": "ETH", "minOffer": "0.00225", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154163359",
+      "highestBid": "1791.96",
+      "lowestAsk": "2055.84",
+      "rate": "1960",
+      "previousRate": "1950"
+    },
+    "ALG-BTC": {
+      "market": {
+        "code": "ALG-BTC",
+        "first": { "currency": "ALG", "minOffer": "0.53", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153744645",
+      "highestBid": "0.00000566",
+      "lowestAsk": "0.00000729",
+      "rate": "0.00000566",
+      "previousRate": "0.00000564"
+    },
+    "XIN-USD": {
+      "market": {
+        "code": "XIN-USD",
+        "first": { "currency": "XIN", "minOffer": "450", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1611824853680",
+      "highestBid": null,
+      "lowestAsk": "0.01",
+      "rate": "0.01",
+      "previousRate": "0.01"
+    },
+    "XRP-EUR": {
+      "market": {
+        "code": "XRP-EUR",
+        "first": { "currency": "XRP", "minOffer": "7.11", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153995360",
+      "highestBid": "0.6",
+      "lowestAsk": "0.62",
+      "rate": "0.61",
+      "previousRate": "0.63"
+    },
+    "SUSHI-PLN": {
+      "market": {
+        "code": "SUSHI-PLN",
+        "first": { "currency": "SUSHI", "minOffer": "0.135", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153606123",
+      "highestBid": "32.07",
+      "lowestAsk": "33.11",
+      "rate": "33.11",
+      "previousRate": "33"
+    },
+    "BTC-USD": {
+      "market": {
+        "code": "BTC-USD",
+        "first": { "currency": "BTC", "minOffer": "0.000108", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154163196",
+      "highestBid": "38510",
+      "lowestAsk": "40995.39",
+      "rate": "40997.63",
+      "previousRate": "38037.1"
+    },
+    "WIS-USDT": {
+      "market": {
+        "code": "WIS-USDT",
+        "first": { "currency": "WIS", "minOffer": "2.7", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628138010367",
+      "highestBid": "0.044601",
+      "lowestAsk": "0.054535",
+      "rate": "0.044601",
+      "previousRate": "0.0445"
+    },
+    "BOB-PLN": {
+      "market": {
+        "code": "BOB-PLN",
+        "first": { "currency": "BOB", "minOffer": "144", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628151222145",
+      "highestBid": "0.03",
+      "lowestAsk": "0.04",
+      "rate": "0.03",
+      "previousRate": "0.04"
+    },
+    "COMP-PLN": {
+      "market": {
+        "code": "COMP-PLN",
+        "first": { "currency": "COMP", "minOffer": "0.00252", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154169871",
+      "highestBid": "1725.23",
+      "lowestAsk": "1762.56",
+      "rate": "1773.17",
+      "previousRate": "1724.78"
+    },
+    "COMP-GBP": {
+      "market": {
+        "code": "COMP-GBP",
+        "first": { "currency": "COMP", "minOffer": "0.018", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154119901",
+      "highestBid": "248.91",
+      "lowestAsk": "393.74",
+      "rate": "244",
+      "previousRate": "244.01"
+    },
+    "BTC-EUR": {
+      "market": {
+        "code": "BTC-EUR",
+        "first": { "currency": "BTC", "minOffer": "0.000135", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154165233",
+      "highestBid": "32650",
+      "lowestAsk": "32798.01",
+      "rate": "32700",
+      "previousRate": "32750"
+    },
+    "REP-PLN": {
+      "market": {
+        "code": "REP-PLN",
+        "first": { "currency": "REP", "minOffer": "0.0459", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153304156",
+      "highestBid": "96.81",
+      "lowestAsk": "97.69",
+      "rate": "96.81",
+      "previousRate": "98.4"
+    },
+    "TRX-PLN": {
+      "market": {
+        "code": "TRX-PLN",
+        "first": { "currency": "TRX", "minOffer": "16.2", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153882876",
+      "highestBid": "0.26",
+      "lowestAsk": "0.27",
+      "rate": "0.26",
+      "previousRate": "0.27"
+    },
+    "UNI-USDT": {
+      "market": {
+        "code": "UNI-USDT",
+        "first": { "currency": "UNI", "minOffer": "0.0051", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154165324",
+      "highestBid": "22",
+      "lowestAsk": "23.026",
+      "rate": "23.387",
+      "previousRate": "23.386"
+    },
+    "LSK-BTC": {
+      "market": {
+        "code": "LSK-BTC",
+        "first": { "currency": "LSK", "minOffer": "0.033", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154162119",
+      "highestBid": "0.00008884",
+      "lowestAsk": "0.00009296",
+      "rate": "0.00009011",
+      "previousRate": "0.00009012"
+    },
+    "LUNA-USDT": {
+      "market": {
+        "code": "LUNA-USDT",
+        "first": { "currency": "LUNA", "minOffer": "0.008", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154169006",
+      "highestBid": "14.550001",
+      "lowestAsk": "14.674999",
+      "rate": "14.729",
+      "previousRate": "14.64"
+    },
+    "BTG-BTC": {
+      "market": {
+        "code": "BTG-BTC",
+        "first": { "currency": "BTG", "minOffer": "0.0022", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166087",
+      "highestBid": "0.00131648",
+      "lowestAsk": "0.0013758",
+      "rate": "0.001377",
+      "previousRate": "0.00137613"
+    },
+    "DASH-USDT": {
+      "market": {
+        "code": "DASH-USDT",
+        "first": { "currency": "DASH", "minOffer": "0.0007", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154169606",
+      "highestBid": "156.74",
+      "lowestAsk": "163.941442",
+      "rate": "167.383335",
+      "previousRate": "158.430003"
+    },
+    "TRX-USD": {
+      "market": {
+        "code": "TRX-USD",
+        "first": { "currency": "TRX", "minOffer": "90", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627824233030",
+      "highestBid": "0.06",
+      "lowestAsk": "0.07",
+      "rate": "0.05",
+      "previousRate": "0.06"
+    },
+    "DOT-PLN": {
+      "market": {
+        "code": "DOT-PLN",
+        "first": { "currency": "DOT", "minOffer": "0.0612", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170308",
+      "highestBid": "72",
+      "lowestAsk": "73.46",
+      "rate": "73.32",
+      "previousRate": "73.47"
+    },
+    "LINK-PLN": {
+      "market": {
+        "code": "LINK-PLN",
+        "first": { "currency": "LINK", "minOffer": "0.0486", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154166243",
+      "highestBid": "90.01",
+      "lowestAsk": "90.6",
+      "rate": "90.77",
+      "previousRate": "91.01"
+    },
+    "MANA-GBP": {
+      "market": {
+        "code": "MANA-GBP",
+        "first": { "currency": "MANA", "minOffer": "5.67", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627678561144",
+      "highestBid": "0.36",
+      "lowestAsk": "0.79",
+      "rate": "0.79",
+      "previousRate": "0.81"
+    },
+    "EOS-USDT": {
+      "market": {
+        "code": "EOS-USDT",
+        "first": { "currency": "EOS", "minOffer": "0.03", "scale": 4 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628137574565",
+      "highestBid": "3.988392",
+      "lowestAsk": "4.211885",
+      "rate": "3.976146",
+      "previousRate": "4"
+    },
+    "XRP-GBP": {
+      "market": {
+        "code": "XRP-GBP",
+        "first": { "currency": "XRP", "minOffer": "9", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628089766691",
+      "highestBid": "0.49",
+      "lowestAsk": "0.55",
+      "rate": "0.49",
+      "previousRate": "0.52"
+    },
+    "SUSHI-GBP": {
+      "market": {
+        "code": "SUSHI-GBP",
+        "first": { "currency": "SUSHI", "minOffer": "0.504", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154127723",
+      "highestBid": "5.14",
+      "lowestAsk": "8.89",
+      "rate": "8.89",
+      "previousRate": "5.88"
+    },
+    "ETH-BTC": {
+      "market": {
+        "code": "ETH-BTC",
+        "first": { "currency": "ETH", "minOffer": "0.000043", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154170082",
+      "highestBid": "0.068353",
+      "lowestAsk": "0.06888",
+      "rate": "0.068367",
+      "previousRate": "0.068353"
+    },
+    "OMG-BTC": {
+      "market": {
+        "code": "OMG-BTC",
+        "first": { "currency": "OMG", "minOffer": "0.027", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154160759",
+      "highestBid": "0.0001115",
+      "lowestAsk": "0.00011355",
+      "rate": "0.00011357",
+      "previousRate": "0.00011107"
+    },
+    "DAI-BTC": {
+      "market": {
+        "code": "DAI-BTC",
+        "first": { "currency": "DAI", "minOffer": "0.13", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153878515",
+      "highestBid": "0.00002352",
+      "lowestAsk": "0.00002832",
+      "rate": "0.0000235",
+      "previousRate": "0.0000245"
+    },
+    "DOGE-EUR": {
+      "market": {
+        "code": "DOGE-EUR",
+        "first": { "currency": "DOGE", "minOffer": "4.3", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628085686558",
+      "highestBid": "0.16",
+      "lowestAsk": "0.18",
+      "rate": "0.18",
+      "previousRate": "0.17"
+    },
+    "BTG-PLN": {
+      "market": {
+        "code": "BTG-PLN",
+        "first": { "currency": "BTG", "minOffer": "0.0216", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154087797",
+      "highestBid": "201",
+      "lowestAsk": "203",
+      "rate": "201.03",
+      "previousRate": "203.87"
+    },
+    "GRT-BTC": {
+      "market": {
+        "code": "GRT-BTC",
+        "first": { "currency": "GRT", "minOffer": "0.19", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153927011",
+      "highestBid": "0.0000158",
+      "lowestAsk": "0.00001728",
+      "rate": "0.00001598",
+      "previousRate": "0.00001626"
+    },
+    "LINK-USDT": {
+      "market": {
+        "code": "LINK-USDT",
+        "first": { "currency": "LINK", "minOffer": "0.0049", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154170123",
+      "highestBid": "23.145",
+      "lowestAsk": "23.675",
+      "rate": "24",
+      "previousRate": "24.715"
+    },
+    "LTC-GBP": {
+      "market": {
+        "code": "LTC-GBP",
+        "first": { "currency": "LTC", "minOffer": "0.0432", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628134344578",
+      "highestBid": "92.76",
+      "lowestAsk": "108.65",
+      "rate": "104",
+      "previousRate": "103.73"
+    },
+    "ZEC-USDT": {
+      "market": {
+        "code": "ZEC-USDT",
+        "first": { "currency": "ZEC", "minOffer": "0.00099", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154060241",
+      "highestBid": "113.82",
+      "lowestAsk": "118.999997",
+      "rate": "119",
+      "previousRate": "115"
+    },
+    "SRN-BTC": {
+      "market": {
+        "code": "SRN-BTC",
+        "first": { "currency": "SRN", "minOffer": "11", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628150600022",
+      "highestBid": "0.00000028",
+      "lowestAsk": "0.00000029",
+      "rate": "0.00000028",
+      "previousRate": "0.00000027"
+    },
+    "BSV-PLN": {
+      "market": {
+        "code": "BSV-PLN",
+        "first": { "currency": "BSV", "minOffer": "0.0081", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153639742",
+      "highestBid": "545",
+      "lowestAsk": "565",
+      "rate": "547",
+      "previousRate": "550"
+    },
+    "LUNA-PLN": {
+      "market": {
+        "code": "LUNA-PLN",
+        "first": { "currency": "LUNA", "minOffer": "0.0792", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154134967",
+      "highestBid": "56.2",
+      "lowestAsk": "56.67",
+      "rate": "56.19",
+      "previousRate": "56.85"
+    },
+    "WIS-BTC": {
+      "market": {
+        "code": "WIS-BTC",
+        "first": { "currency": "WIS", "minOffer": "2.6", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628092870601",
+      "highestBid": "0.00000116",
+      "lowestAsk": "0.0000013",
+      "rate": "0.00000116",
+      "previousRate": "0.00000117"
+    },
+    "ZEC-BTC": {
+      "market": {
+        "code": "ZEC-BTC",
+        "first": { "currency": "ZEC", "minOffer": "0.001", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154080647",
+      "highestBid": "0.002972",
+      "lowestAsk": "0.003047",
+      "rate": "0.0029855",
+      "previousRate": "0.002984"
+    },
+    "PAY-EUR": {
+      "market": {
+        "code": "PAY-EUR",
+        "first": { "currency": "PAY", "minOffer": "74.7", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628125347080",
+      "highestBid": "0.05",
+      "lowestAsk": "0.07",
+      "rate": "0.06",
+      "previousRate": "0.05"
+    },
+    "REP-USD": {
+      "market": {
+        "code": "REP-USD",
+        "first": { "currency": "REP", "minOffer": "0.18", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628151079516",
+      "highestBid": "19.7",
+      "lowestAsk": "29",
+      "rate": "25",
+      "previousRate": "27"
+    },
+    "XRP-USDT": {
+      "market": {
+        "code": "XRP-USDT",
+        "first": { "currency": "XRP", "minOffer": "0.17", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154170214",
+      "highestBid": "0.715",
+      "lowestAsk": "0.729958",
+      "rate": "0.715",
+      "previousRate": "0.7204"
+    },
+    "UNI-PLN": {
+      "market": {
+        "code": "UNI-PLN",
+        "first": { "currency": "UNI", "minOffer": "0.0504", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154169999",
+      "highestBid": "87.54",
+      "lowestAsk": "88.56",
+      "rate": "89",
+      "previousRate": "88.82"
+    },
+    "SUSHI-BTC": {
+      "market": {
+        "code": "SUSHI-BTC",
+        "first": { "currency": "SUSHI", "minOffer": "0.015", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154131469",
+      "highestBid": "0.00021401",
+      "lowestAsk": "0.00022494",
+      "rate": "0.00021156",
+      "previousRate": "0.0002096"
+    },
+    "GNT-BTC": {
+      "market": {
+        "code": "GNT-BTC",
+        "first": { "currency": "GNT", "minOffer": "0.25", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154102081",
+      "highestBid": "0.00001054",
+      "lowestAsk": "0.00001185",
+      "rate": "0.000012",
+      "previousRate": "0.00001116"
+    },
+    "BCC-BTC": {
+      "market": {
+        "code": "BCC-BTC",
+        "first": { "currency": "BCC", "minOffer": "0.00022", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154170223",
+      "highestBid": "0.0135435",
+      "lowestAsk": "0.01383",
+      "rate": "0.01361597",
+      "previousRate": "0.01360237"
+    },
+    "BSV-ETH": {
+      "market": {
+        "code": "BSV-ETH",
+        "first": { "currency": "BSV", "minOffer": "0.00079", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1627929658316",
+      "highestBid": "0.0522",
+      "lowestAsk": "0.062",
+      "rate": "0.05500001",
+      "previousRate": "0.05583252"
+    },
+    "ETH-EUR": {
+      "market": {
+        "code": "ETH-EUR",
+        "first": { "currency": "ETH", "minOffer": "0.000216", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154149838",
+      "highestBid": "2228.61",
+      "lowestAsk": "2232.61",
+      "rate": "2232.61",
+      "previousRate": "2236.61"
+    },
+    "BCC-GBP": {
+      "market": {
+        "code": "BCC-GBP",
+        "first": { "currency": "BCC", "minOffer": "0.0144", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628095080423",
+      "highestBid": "357.64",
+      "lowestAsk": "429.98",
+      "rate": "296",
+      "previousRate": "300"
+    },
+    "TRX-EUR": {
+      "market": {
+        "code": "TRX-EUR",
+        "first": { "currency": "TRX", "minOffer": "74.7", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628151118957",
+      "highestBid": "0.05",
+      "lowestAsk": "0.07",
+      "rate": "0.06",
+      "previousRate": "0.05"
+    },
+    "XLM-ETH": {
+      "market": {
+        "code": "XLM-ETH",
+        "first": { "currency": "XLM", "minOffer": "0.43", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154023817",
+      "highestBid": "0.00010123",
+      "lowestAsk": "0.0001043",
+      "rate": "0.00010121",
+      "previousRate": "0.000105"
+    },
+    "MATIC-PLN": {
+      "market": {
+        "code": "MATIC-PLN",
+        "first": { "currency": "MATIC", "minOffer": "1.08", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154096715",
+      "highestBid": "3.99",
+      "lowestAsk": "4.02",
+      "rate": "4",
+      "previousRate": "4.04"
+    },
+    "ETH-PLN": {
+      "market": {
+        "code": "ETH-PLN",
+        "first": { "currency": "ETH", "minOffer": "0.000432", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154168632",
+      "highestBid": "10165.11",
+      "lowestAsk": "10199.68",
+      "rate": "10199.68",
+      "previousRate": "10199.69"
+    },
+    "EOS-BTC": {
+      "market": {
+        "code": "EOS-BTC",
+        "first": { "currency": "EOS", "minOffer": "0.033", "scale": 4 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153911716",
+      "highestBid": "0.00009523",
+      "lowestAsk": "0.00010959",
+      "rate": "0.00009201",
+      "previousRate": "0.00010977"
+    },
+    "TRX-ETH": {
+      "market": {
+        "code": "TRX-ETH",
+        "first": { "currency": "TRX", "minOffer": "1.7", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154168149",
+      "highestBid": "0.00002596",
+      "lowestAsk": "0.00002656",
+      "rate": "0.00002573",
+      "previousRate": "0.00002566"
+    },
+    "UNI-GBP": {
+      "market": {
+        "code": "UNI-GBP",
+        "first": { "currency": "UNI", "minOffer": "0.243", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148858271",
+      "highestBid": "13.03",
+      "lowestAsk": "18.25",
+      "rate": "18.25",
+      "previousRate": "13.52"
+    },
+    "BTG-USD": {
+      "market": {
+        "code": "BTG-USD",
+        "first": { "currency": "BTG", "minOffer": "0.0783", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628137873472",
+      "highestBid": "51.93",
+      "lowestAsk": "57.27",
+      "rate": "57",
+      "previousRate": "59"
+    },
+    "MANA-BTC": {
+      "market": {
+        "code": "MANA-BTC",
+        "first": { "currency": "MANA", "minOffer": "0.17", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154138801",
+      "highestBid": "0.00001841",
+      "lowestAsk": "0.00001891",
+      "rate": "0.00001814",
+      "previousRate": "0.00001797"
+    },
+    "MANA-USDT": {
+      "market": {
+        "code": "MANA-USDT",
+        "first": { "currency": "MANA", "minOffer": "0.16", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154126505",
+      "highestBid": "0.696911",
+      "lowestAsk": "0.745841",
+      "rate": "0.745841",
+      "previousRate": "0.703773"
+    },
+    "CHZ-USDT": {
+      "market": {
+        "code": "CHZ-USDT",
+        "first": { "currency": "CHZ", "minOffer": "0.45", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154060217",
+      "highestBid": "0.2608",
+      "lowestAsk": "0.2617",
+      "rate": "0.2609",
+      "previousRate": "0.2648"
+    },
+    "COMP-EUR": {
+      "market": {
+        "code": "COMP-EUR",
+        "first": { "currency": "COMP", "minOffer": "0.009", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154161610",
+      "highestBid": "303.73",
+      "lowestAsk": "480.61",
+      "rate": "480.61",
+      "previousRate": "316.4"
+    },
+    "BCP-PLN": {
+      "market": {
+        "code": "BCP-PLN",
+        "first": { "currency": "BCP", "minOffer": "23.4", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153304098",
+      "highestBid": "0.18",
+      "lowestAsk": "0.19",
+      "rate": "0.19",
+      "previousRate": "0.18"
+    },
+    "BCC-USDC": {
+      "market": {
+        "code": "BCC-USDC",
+        "first": { "currency": "BCC", "minOffer": "0.00074", "scale": 8 },
+        "second": { "currency": "USDC", "minOffer": "0.432", "scale": 8 }
+      },
+      "time": "1628153418436",
+      "highestBid": "504.69225491",
+      "lowestAsk": "587.57699998",
+      "rate": "587.81359199",
+      "previousRate": "508.00000001"
+    },
+    "DAI-GBP": {
+      "market": {
+        "code": "DAI-GBP",
+        "first": { "currency": "DAI", "minOffer": "6.57", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1624313392797",
+      "highestBid": "0.68",
+      "lowestAsk": "0.79",
+      "rate": "0.68",
+      "previousRate": "0.78"
+    },
+    "BCC-EUR": {
+      "market": {
+        "code": "BCC-EUR",
+        "first": { "currency": "BCC", "minOffer": "0.009", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154165626",
+      "highestBid": "434.93",
+      "lowestAsk": "452.04",
+      "rate": "457.66",
+      "previousRate": "458.62"
+    },
+    "USDT-PLN": {
+      "market": {
+        "code": "USDT-PLN",
+        "first": { "currency": "USDT", "minOffer": "1.17", "scale": 6 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154075886",
+      "highestBid": "3.84",
+      "lowestAsk": "3.86",
+      "rate": "3.86",
+      "previousRate": "3.85"
+    },
+    "XIN-BTC": {
+      "market": {
+        "code": "XIN-BTC",
+        "first": { "currency": "XIN", "minOffer": "50", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628072739352",
+      "highestBid": "0.00000006",
+      "lowestAsk": "0.00000007",
+      "rate": "0.00000006",
+      "previousRate": "0.00000007"
+    },
+    "DASH-BTC": {
+      "market": {
+        "code": "DASH-BTC",
+        "first": { "currency": "DASH", "minOffer": "0.00073", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166872",
+      "highestBid": "0.004083",
+      "lowestAsk": "0.00414",
+      "rate": "0.0041",
+      "previousRate": "0.004033"
+    },
+    "MANA-PLN": {
+      "market": {
+        "code": "MANA-PLN",
+        "first": { "currency": "MANA", "minOffer": "1.53", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154147399",
+      "highestBid": "2.77",
+      "lowestAsk": "2.81",
+      "rate": "2.79",
+      "previousRate": "2.76"
+    },
+    "ETH-USDT": {
+      "market": {
+        "code": "ETH-USDT",
+        "first": { "currency": "ETH", "minOffer": "0.000044", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154160009",
+      "highestBid": "2640",
+      "lowestAsk": "2648.940533",
+      "rate": "2644",
+      "previousRate": "2647"
+    },
+    "EOS-GBP": {
+      "market": {
+        "code": "EOS-GBP",
+        "first": { "currency": "EOS", "minOffer": "0.108", "scale": 4 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627768117659",
+      "highestBid": "2.2",
+      "lowestAsk": "3.95",
+      "rate": "3.99",
+      "previousRate": "3.96"
+    },
+    "BAT-PLN": {
+      "market": {
+        "code": "BAT-PLN",
+        "first": { "currency": "BAT", "minOffer": "1.71", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154093802",
+      "highestBid": "2.53",
+      "lowestAsk": "2.55",
+      "rate": "2.54",
+      "previousRate": "2.59"
+    },
+    "REP-BTC": {
+      "market": {
+        "code": "REP-BTC",
+        "first": { "currency": "REP", "minOffer": "0.0048", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154161593",
+      "highestBid": "0.00063177",
+      "lowestAsk": "0.000706",
+      "rate": "0.00063164",
+      "previousRate": "0.00062069"
+    },
+    "BTG-USDT": {
+      "market": {
+        "code": "BTG-USDT",
+        "first": { "currency": "BTG", "minOffer": "0.0022", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154160810",
+      "highestBid": "52.010003",
+      "lowestAsk": "54.374698",
+      "rate": "54.58952",
+      "previousRate": "51.74"
+    },
+    "ZEC-USD": {
+      "market": {
+        "code": "ZEC-USD",
+        "first": { "currency": "ZEC", "minOffer": "0.0468", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627860139614",
+      "highestBid": "86",
+      "lowestAsk": "141",
+      "rate": "96",
+      "previousRate": "96.1"
+    },
+    "GAME-PLN": {
+      "market": {
+        "code": "GAME-PLN",
+        "first": { "currency": "GAME", "minOffer": "9", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153620218",
+      "highestBid": "0.45",
+      "lowestAsk": "0.47",
+      "rate": "0.45",
+      "previousRate": "0.46"
+    },
+    "XRP-ETH": {
+      "market": {
+        "code": "XRP-ETH",
+        "first": { "currency": "XRP", "minOffer": "0.16", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154169747",
+      "highestBid": "0.00026781",
+      "lowestAsk": "0.00027493",
+      "rate": "0.00027096",
+      "previousRate": "0.00027084"
+    },
+    "GRT-EUR": {
+      "market": {
+        "code": "GRT-EUR",
+        "first": { "currency": "GRT", "minOffer": "8.1", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628147620467",
+      "highestBid": "0.54",
+      "lowestAsk": "0.6",
+      "rate": "0.55",
+      "previousRate": "0.53"
+    },
+    "DASH-EUR": {
+      "market": {
+        "code": "DASH-EUR",
+        "first": { "currency": "DASH", "minOffer": "0.0333", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154163358",
+      "highestBid": "126.83",
+      "lowestAsk": "142.48",
+      "rate": "132.02",
+      "previousRate": "142.18"
+    },
+    "AAVE-EUR": {
+      "market": {
+        "code": "AAVE-EUR",
+        "first": { "currency": "AAVE", "minOffer": "0.0144", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154131519",
+      "highestBid": "267.5",
+      "lowestAsk": "305.97",
+      "rate": "297.28",
+      "previousRate": "296"
+    },
+    "TRX-USDT": {
+      "market": {
+        "code": "TRX-USDT",
+        "first": { "currency": "TRX", "minOffer": "1.7", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154127387",
+      "highestBid": "0.069141",
+      "lowestAsk": "0.06986",
+      "rate": "0.07029",
+      "previousRate": "0.067652"
+    },
+    "BOB-USD": {
+      "market": {
+        "code": "BOB-USD",
+        "first": { "currency": "BOB", "minOffer": "450", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1621250403582",
+      "highestBid": null,
+      "lowestAsk": "0.01",
+      "rate": "0.01",
+      "previousRate": "0.02"
+    },
+    "ENJ-PLN": {
+      "market": {
+        "code": "ENJ-PLN",
+        "first": { "currency": "ENJ", "minOffer": "0.828", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154150531",
+      "highestBid": "5.27",
+      "lowestAsk": "5.35",
+      "rate": "5.29",
+      "previousRate": "5.3"
+    },
+    "BTC-GBP": {
+      "market": {
+        "code": "BTC-GBP",
+        "first": { "currency": "BTC", "minOffer": "0.000153", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153983836",
+      "highestBid": "27699",
+      "lowestAsk": "28771.61",
+      "rate": "28771.74",
+      "previousRate": "28148.23"
+    },
+    "REP-ETH": {
+      "market": {
+        "code": "REP-ETH",
+        "first": { "currency": "REP", "minOffer": "0.005", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628096963271",
+      "highestBid": "0.00878272",
+      "lowestAsk": "0.0115",
+      "rate": "0.00878272",
+      "previousRate": "0.0095"
+    },
+    "BCC-USDT": {
+      "market": {
+        "code": "BCC-USDT",
+        "first": { "currency": "BCC", "minOffer": "0.00023", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154165721",
+      "highestBid": "519.720003",
+      "lowestAsk": "544.766856",
+      "rate": "511.460953",
+      "previousRate": "510.950003"
+    },
+    "BAT-USD": {
+      "market": {
+        "code": "BAT-USD",
+        "first": { "currency": "BAT", "minOffer": "6.3", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628092909256",
+      "highestBid": "0.48",
+      "lowestAsk": "0.71",
+      "rate": "0.71",
+      "previousRate": "0.48"
+    },
+    "AAVE-BTC": {
+      "market": {
+        "code": "AAVE-BTC",
+        "first": { "currency": "AAVE", "minOffer": "0.00033", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166082",
+      "highestBid": "0.00844199",
+      "lowestAsk": "0.0092",
+      "rate": "0.0092",
+      "previousRate": "0.009"
+    },
+    "XLM-USDT": {
+      "market": {
+        "code": "XLM-USDT",
+        "first": { "currency": "XLM", "minOffer": "0.43", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154166655",
+      "highestBid": "0.26795",
+      "lowestAsk": "0.27424",
+      "rate": "0.27327",
+      "previousRate": "0.28001"
+    },
+    "LINK-BTC": {
+      "market": {
+        "code": "LINK-BTC",
+        "first": { "currency": "LINK", "minOffer": "0.0049", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154167476",
+      "highestBid": "0.0005973",
+      "lowestAsk": "0.0006098",
+      "rate": "0.0006065",
+      "previousRate": "0.000625"
+    },
+    "PAY-USD": {
+      "market": {
+        "code": "PAY-USD",
+        "first": { "currency": "PAY", "minOffer": "34.2", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628138472571",
+      "highestBid": "0.06",
+      "lowestAsk": "0.12",
+      "rate": "0.13",
+      "previousRate": "0.07"
+    },
+    "OMG-USD": {
+      "market": {
+        "code": "OMG-USD",
+        "first": { "currency": "OMG", "minOffer": "1.17", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628115640623",
+      "highestBid": "4.08",
+      "lowestAsk": "4.62",
+      "rate": "3.74",
+      "previousRate": "4.38"
+    },
+    "GAME-BTC": {
+      "market": {
+        "code": "GAME-BTC",
+        "first": { "currency": "GAME", "minOffer": "1.1", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153042790",
+      "highestBid": "0.00000294",
+      "lowestAsk": "0.00000323",
+      "rate": "0.00000295",
+      "previousRate": "0.00000294"
+    },
+    "WIS-PLN": {
+      "market": {
+        "code": "WIS-PLN",
+        "first": { "currency": "WIS", "minOffer": "23.4", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148878069",
+      "highestBid": "0.18",
+      "lowestAsk": "0.19",
+      "rate": "0.19",
+      "previousRate": "0.18"
+    },
+    "PUNDIX-USDT": {
+      "market": {
+        "code": "PUNDIX-USDT",
+        "first": { "currency": "PUNDIX", "minOffer": "0.071", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628126391980",
+      "highestBid": "1.31",
+      "lowestAsk": "1.647777",
+      "rate": "1.65",
+      "previousRate": "1.64934"
+    },
+    "LSK-ETH": {
+      "market": {
+        "code": "LSK-ETH",
+        "first": { "currency": "LSK", "minOffer": "0.033", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154088082",
+      "highestBid": "0.0013",
+      "lowestAsk": "0.00134",
+      "rate": "0.0013",
+      "previousRate": "0.001323"
+    },
+    "LINK-ETH": {
+      "market": {
+        "code": "LINK-ETH",
+        "first": { "currency": "LINK", "minOffer": "0.0044", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154163206",
+      "highestBid": "0.008743",
+      "lowestAsk": "0.009016",
+      "rate": "0.01",
+      "previousRate": "0.009484"
+    },
+    "XIN-EUR": {
+      "market": {
+        "code": "XIN-EUR",
+        "first": { "currency": "XIN", "minOffer": "450", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1611824853689",
+      "highestBid": null,
+      "lowestAsk": "0.01",
+      "rate": "0.01",
+      "previousRate": "0.01"
+    },
+    "LSK-PLN": {
+      "market": {
+        "code": "LSK-PLN",
+        "first": { "currency": "LSK", "minOffer": "0.324", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170235",
+      "highestBid": "13.32",
+      "lowestAsk": "13.43",
+      "rate": "13.33",
+      "previousRate": "13.36"
+    },
+    "OMG-ETH": {
+      "market": {
+        "code": "OMG-ETH",
+        "first": { "currency": "OMG", "minOffer": "0.027", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628154157215",
+      "highestBid": "0.001622",
+      "lowestAsk": "0.0019985",
+      "rate": "0.0016",
+      "previousRate": "0.00160645"
+    },
+    "XLM-BTC": {
+      "market": {
+        "code": "XLM-BTC",
+        "first": { "currency": "XLM", "minOffer": "0.43", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166070",
+      "highestBid": "0.00000703",
+      "lowestAsk": "0.00000719",
+      "rate": "0.00000705",
+      "previousRate": "0.00000706"
+    },
+    "BAT-EUR": {
+      "market": {
+        "code": "BAT-EUR",
+        "first": { "currency": "BAT", "minOffer": "7.74", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628147707028",
+      "highestBid": "0.54",
+      "lowestAsk": "0.58",
+      "rate": "0.58",
+      "previousRate": "0.59"
+    },
+    "ATRI-USDT": {
+      "market": {
+        "code": "ATRI-USDT",
+        "first": { "currency": "ATRI", "minOffer": "2.4", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154169916",
+      "highestBid": "0.050007",
+      "lowestAsk": "0.050039",
+      "rate": "0.050036",
+      "previousRate": "0.050035"
+    },
+    "ETH-USD": {
+      "market": {
+        "code": "ETH-USD",
+        "first": { "currency": "ETH", "minOffer": "0.00162", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154164695",
+      "highestBid": "2600.01",
+      "lowestAsk": "2793.92",
+      "rate": "2669.42",
+      "previousRate": "2748"
+    },
+    "NEU-PLN": {
+      "market": {
+        "code": "NEU-PLN",
+        "first": { "currency": "NEU", "minOffer": "6.39", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628151982654",
+      "highestBid": "0.67",
+      "lowestAsk": "0.69",
+      "rate": "0.7",
+      "previousRate": "0.67"
+    },
+    "BCC-ETH": {
+      "market": {
+        "code": "BCC-ETH",
+        "first": { "currency": "BCC", "minOffer": "0.00023", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628020141354",
+      "highestBid": "0.19042841",
+      "lowestAsk": "0.22839983",
+      "rate": "0.19042841",
+      "previousRate": "0.22839983"
+    },
+    "XLM-USD": {
+      "market": {
+        "code": "XLM-USD",
+        "first": { "currency": "XLM", "minOffer": "13.5", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148650134",
+      "highestBid": "0.25",
+      "lowestAsk": "0.32",
+      "rate": "0.33",
+      "previousRate": "0.36"
+    },
+    "COMP-BTC": {
+      "market": {
+        "code": "COMP-BTC",
+        "first": { "currency": "COMP", "minOffer": "0.00029", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154146715",
+      "highestBid": "0.0104471",
+      "lowestAsk": "0.01243999",
+      "rate": "0.0104345",
+      "previousRate": "0.01309977"
+    },
+    "ZRX-PLN": {
+      "market": {
+        "code": "ZRX-PLN",
+        "first": { "currency": "ZRX", "minOffer": "1.26", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153608859",
+      "highestBid": "3.43",
+      "lowestAsk": "3.5",
+      "rate": "3.47",
+      "previousRate": "3.43"
+    },
+    "LTC-BTC": {
+      "market": {
+        "code": "LTC-BTC",
+        "first": { "currency": "LTC", "minOffer": "0.00084", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154169966",
+      "highestBid": "0.003545",
+      "lowestAsk": "0.00360999",
+      "rate": "0.00357",
+      "previousRate": "0.00359"
+    },
+    "CHZ-PLN": {
+      "market": {
+        "code": "CHZ-PLN",
+        "first": { "currency": "CHZ", "minOffer": "4.41", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154078831",
+      "highestBid": "1",
+      "lowestAsk": "1.01",
+      "rate": "1.01",
+      "previousRate": "1.02"
+    },
+    "GNT-EUR": {
+      "market": {
+        "code": "GNT-EUR",
+        "first": { "currency": "GNT", "minOffer": "11.7", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628123414331",
+      "highestBid": "0.23",
+      "lowestAsk": "0.4",
+      "rate": "0.38",
+      "previousRate": "0.37"
+    },
+    "XTZ-PLN": {
+      "market": {
+        "code": "XTZ-PLN",
+        "first": { "currency": "XTZ", "minOffer": "0.36", "scale": 6 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154154421",
+      "highestBid": "12.33",
+      "lowestAsk": "12.46",
+      "rate": "12.46",
+      "previousRate": "12.38"
+    },
+    "BTG-EUR": {
+      "market": {
+        "code": "BTG-EUR",
+        "first": { "currency": "BTG", "minOffer": "0.099", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154104709",
+      "highestBid": "43.34",
+      "lowestAsk": "45.19",
+      "rate": "43.9",
+      "previousRate": "45.68"
+    },
+    "XIN-PLN": {
+      "market": {
+        "code": "XIN-PLN",
+        "first": { "currency": "XIN", "minOffer": "225", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628143084492",
+      "highestBid": "0.01",
+      "lowestAsk": "0.02",
+      "rate": "0.02",
+      "previousRate": "0.01"
+    },
+    "ZRX-USD": {
+      "market": {
+        "code": "ZRX-USD",
+        "first": { "currency": "ZRX", "minOffer": "7.83", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152113786",
+      "highestBid": "0.8",
+      "lowestAsk": "0.93",
+      "rate": "0.89",
+      "previousRate": "0.57"
+    },
+    "ATRI-EUR": {
+      "market": {
+        "code": "ATRI-EUR",
+        "first": { "currency": "ATRI", "minOffer": "23.4", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628120217265",
+      "highestBid": "0.04",
+      "lowestAsk": "0.05",
+      "rate": "0.04",
+      "previousRate": "0.05"
+    },
+    "NEU-USD": {
+      "market": {
+        "code": "NEU-USD",
+        "first": { "currency": "NEU", "minOffer": "26.1", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627920792223",
+      "highestBid": "0.11",
+      "lowestAsk": "0.25",
+      "rate": "0.17",
+      "previousRate": "0.15"
+    },
+    "USDC-USD": {
+      "market": {
+        "code": "USDC-USD",
+        "first": { "currency": "USDC", "minOffer": "4.32", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628004398012",
+      "highestBid": "1",
+      "lowestAsk": "1.04",
+      "rate": "1.04",
+      "previousRate": "1.06"
+    },
+    "XTZ-EUR": {
+      "market": {
+        "code": "XTZ-EUR",
+        "first": { "currency": "XTZ", "minOffer": "1.62", "scale": 6 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628145836256",
+      "highestBid": "2.66",
+      "lowestAsk": "3.28",
+      "rate": "2.77",
+      "previousRate": "2.7"
+    },
+    "LSK-USD": {
+      "market": {
+        "code": "LSK-USD",
+        "first": { "currency": "LSK", "minOffer": "0.99", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628106997888",
+      "highestBid": "3.01",
+      "lowestAsk": "4.09",
+      "rate": "4.2",
+      "previousRate": "3.7"
+    },
+    "LTC-PLN": {
+      "market": {
+        "code": "LTC-PLN",
+        "first": { "currency": "LTC", "minOffer": "0.00828", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154169027",
+      "highestBid": "533.18",
+      "lowestAsk": "536.36",
+      "rate": "536.05",
+      "previousRate": "535"
+    },
+    "DASH-USD": {
+      "market": {
+        "code": "DASH-USD",
+        "first": { "currency": "DASH", "minOffer": "0.0261", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628147972210",
+      "highestBid": "150.81",
+      "lowestAsk": "167.32",
+      "rate": "172.19",
+      "previousRate": "171.83"
+    },
+    "MKR-PLN": {
+      "market": {
+        "code": "MKR-PLN",
+        "first": { "currency": "MKR", "minOffer": "0.000396", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170177",
+      "highestBid": "11107.18",
+      "lowestAsk": "11290.57",
+      "rate": "11201.19",
+      "previousRate": "11220.23"
+    },
+    "XTZ-GBP": {
+      "market": {
+        "code": "XTZ-GBP",
+        "first": { "currency": "XTZ", "minOffer": "1.44", "scale": 6 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148886678",
+      "highestBid": "1.75",
+      "lowestAsk": "3.04",
+      "rate": "3.04",
+      "previousRate": "1.57"
+    },
+    "DOGE-PLN": {
+      "market": {
+        "code": "DOGE-PLN",
+        "first": { "currency": "DOGE", "minOffer": "5.76", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153962345",
+      "highestBid": "0.76",
+      "lowestAsk": "0.77",
+      "rate": "0.76",
+      "previousRate": "0.77"
+    },
+    "DAI-USDT": {
+      "market": {
+        "code": "DAI-USDT",
+        "first": { "currency": "DAI", "minOffer": "0.12", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628112812341",
+      "highestBid": "0.930466",
+      "lowestAsk": "0.999999",
+      "rate": "0.999999",
+      "previousRate": "0.922478"
+    },
+    "QARK-BTC": {
+      "market": {
+        "code": "QARK-BTC",
+        "first": { "currency": "QARK", "minOffer": "1.1", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628117421143",
+      "highestBid": "0.00000223",
+      "lowestAsk": "0.00000269",
+      "rate": "0.00000272",
+      "previousRate": "0.00000224"
+    },
+    "COMP-USDT": {
+      "market": {
+        "code": "COMP-USDT",
+        "first": { "currency": "COMP", "minOffer": "0.00025", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154163499",
+      "highestBid": "402.300002",
+      "lowestAsk": "468.988997",
+      "rate": "468.989",
+      "previousRate": "458.99"
+    },
+    "ZEC-EUR": {
+      "market": {
+        "code": "ZEC-EUR",
+        "first": { "currency": "ZEC", "minOffer": "0.0459", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152558227",
+      "highestBid": "95.88",
+      "lowestAsk": "110.99",
+      "rate": "97",
+      "previousRate": "110.79"
+    },
+    "AMLT-BTC": {
+      "market": {
+        "code": "AMLT-BTC",
+        "first": { "currency": "AMLT", "minOffer": "3.3", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628092609797",
+      "highestBid": "0.0000009",
+      "lowestAsk": "0.00000093",
+      "rate": "0.00000091",
+      "previousRate": "0.00000092"
+    },
+    "GNT-USD": {
+      "market": {
+        "code": "GNT-USD",
+        "first": { "currency": "GNT", "minOffer": "8.28", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628141345738",
+      "highestBid": "0.33",
+      "lowestAsk": "0.53",
+      "rate": "0.54",
+      "previousRate": "0.44"
+    },
+    "MKR-BTC": {
+      "market": {
+        "code": "MKR-BTC",
+        "first": { "currency": "MKR", "minOffer": "0.000039", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166000",
+      "highestBid": "0.06677191",
+      "lowestAsk": "0.07772623",
+      "rate": "0.07793999",
+      "previousRate": "0.06501747"
+    },
+    "LTC-USDT": {
+      "market": {
+        "code": "LTC-USDT",
+        "first": { "currency": "LTC", "minOffer": "0.00084", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154170378",
+      "highestBid": "137.780002",
+      "lowestAsk": "140.109999",
+      "rate": "139.470002",
+      "previousRate": "143.669881"
+    },
+    "DAI-EUR": {
+      "market": {
+        "code": "DAI-EUR",
+        "first": { "currency": "DAI", "minOffer": "5.13", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628131819641",
+      "highestBid": "0.82",
+      "lowestAsk": "0.86",
+      "rate": "0.87",
+      "previousRate": "0.86"
+    },
+    "XRP-USD": {
+      "market": {
+        "code": "XRP-USD",
+        "first": { "currency": "XRP", "minOffer": "6.12", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148690725",
+      "highestBid": "0.71",
+      "lowestAsk": "0.82",
+      "rate": "0.73",
+      "previousRate": "0.74"
+    },
+    "AAVE-GBP": {
+      "market": {
+        "code": "AAVE-GBP",
+        "first": { "currency": "AAVE", "minOffer": "0.0171", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148845971",
+      "highestBid": "146.89",
+      "lowestAsk": "261.26",
+      "rate": "261.26",
+      "previousRate": "169"
+    },
+    "NEU-BTC": {
+      "market": {
+        "code": "NEU-BTC",
+        "first": { "currency": "NEU", "minOffer": "0.71", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628095748654",
+      "highestBid": "0.00000423",
+      "lowestAsk": "0.00000484",
+      "rate": "0.00000421",
+      "previousRate": "0.00000509"
+    },
+    "LUNA-BTC": {
+      "market": {
+        "code": "LUNA-BTC",
+        "first": { "currency": "LUNA", "minOffer": "0.0079", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154169647",
+      "highestBid": "0.00037211",
+      "lowestAsk": "0.0003815",
+      "rate": "0.00038073",
+      "previousRate": "0.00037636"
+    },
+    "ZEC-PLN": {
+      "market": {
+        "code": "ZEC-PLN",
+        "first": { "currency": "ZEC", "minOffer": "0.0099", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154114993",
+      "highestBid": "442",
+      "lowestAsk": "447.29",
+      "rate": "442",
+      "previousRate": "453.91"
+    },
+    "GAME-USD": {
+      "market": {
+        "code": "GAME-USD",
+        "first": { "currency": "GAME", "minOffer": "36.9", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627801012629",
+      "highestBid": "0.11",
+      "lowestAsk": "0.13",
+      "rate": "0.12",
+      "previousRate": "0.09"
+    },
+    "MATIC-USDT": {
+      "market": {
+        "code": "MATIC-USDT",
+        "first": { "currency": "MATIC", "minOffer": "0.12", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154139738",
+      "highestBid": "1.028",
+      "lowestAsk": "1.112936",
+      "rate": "1.05715",
+      "previousRate": "1.112935"
+    },
+    "XRP-PLN": {
+      "market": {
+        "code": "XRP-PLN",
+        "first": { "currency": "XRP", "minOffer": "1.62", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153393753",
+      "highestBid": "2.77",
+      "lowestAsk": "2.78",
+      "rate": "2.77",
+      "previousRate": "2.78"
+    },
+    "GAME-EUR": {
+      "market": {
+        "code": "GAME-EUR",
+        "first": { "currency": "GAME", "minOffer": "31.5", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628115989797",
+      "highestBid": "0.1",
+      "lowestAsk": "0.12",
+      "rate": "0.14",
+      "previousRate": "0.1"
+    },
+    "DOT-EUR": {
+      "market": {
+        "code": "DOT-EUR",
+        "first": { "currency": "DOT", "minOffer": "0.108", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154086211",
+      "highestBid": "15.72",
+      "lowestAsk": "17.44",
+      "rate": "16",
+      "previousRate": "18.89"
+    },
+    "DOT-USDT": {
+      "market": {
+        "code": "DOT-USDT",
+        "first": { "currency": "DOT", "minOffer": "0.0061", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154169793",
+      "highestBid": "18.63",
+      "lowestAsk": "18.787",
+      "rate": "18.65",
+      "previousRate": "19.3"
+    },
+    "ATRI-PLN": {
+      "market": {
+        "code": "ATRI-PLN",
+        "first": { "currency": "ATRI", "minOffer": "22.5", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154053239",
+      "highestBid": "0.19",
+      "lowestAsk": "0.2",
+      "rate": "0.2",
+      "previousRate": "0.19"
+    },
+    "DOT-GBP": {
+      "market": {
+        "code": "DOT-GBP",
+        "first": { "currency": "DOT", "minOffer": "0.243", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154142475",
+      "highestBid": "12.5",
+      "lowestAsk": "14.5",
+      "rate": "17.89",
+      "previousRate": "14"
+    },
+    "XTZ-BTC": {
+      "market": {
+        "code": "XTZ-BTC",
+        "first": { "currency": "XTZ", "minOffer": "0.036", "scale": 6 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153963803",
+      "highestBid": "0.00008069",
+      "lowestAsk": "0.0000835",
+      "rate": "0.0000825",
+      "previousRate": "0.00007745"
+    },
+    "AAVE-PLN": {
+      "market": {
+        "code": "AAVE-PLN",
+        "first": { "currency": "AAVE", "minOffer": "0.00324", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170396",
+      "highestBid": "1353.03",
+      "lowestAsk": "1377.58",
+      "rate": "1355.06",
+      "previousRate": "1369.12"
+    },
+    "AAVE-USDT": {
+      "market": {
+        "code": "AAVE-USDT",
+        "first": { "currency": "AAVE", "minOffer": "0.00034", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154169614",
+      "highestBid": "324.490006",
+      "lowestAsk": "353.360001",
+      "rate": "354",
+      "previousRate": "355"
+    },
+    "BAT-BTC": {
+      "market": {
+        "code": "BAT-BTC",
+        "first": { "currency": "BAT", "minOffer": "0.18", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154166659",
+      "highestBid": "0.00001651",
+      "lowestAsk": "0.00001727",
+      "rate": "0.00001697",
+      "previousRate": "0.0000175"
+    },
+    "REP-EUR": {
+      "market": {
+        "code": "REP-EUR",
+        "first": { "currency": "REP", "minOffer": "0.198", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628147424072",
+      "highestBid": "20.84",
+      "lowestAsk": "24.97",
+      "rate": "21.86",
+      "previousRate": "21.01"
+    },
+    "OMG-PLN": {
+      "market": {
+        "code": "OMG-PLN",
+        "first": { "currency": "OMG", "minOffer": "0.261", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170189",
+      "highestBid": "16.69",
+      "lowestAsk": "16.85",
+      "rate": "16.74",
+      "previousRate": "17.09"
+    },
+    "XLM-PLN": {
+      "market": {
+        "code": "XLM-PLN",
+        "first": { "currency": "XLM", "minOffer": "4.32", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153876461",
+      "highestBid": "1.04",
+      "lowestAsk": "1.06",
+      "rate": "1.06",
+      "previousRate": "1.04"
+    },
+    "BCC-PLN": {
+      "market": {
+        "code": "BCC-PLN",
+        "first": { "currency": "BCC", "minOffer": "0.00216", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154170137",
+      "highestBid": "2033.43",
+      "lowestAsk": "2048.99",
+      "rate": "2050.5",
+      "previousRate": "2050.51"
+    },
+    "BCC-USD": {
+      "market": {
+        "code": "BCC-USD",
+        "first": { "currency": "BCC", "minOffer": "0.00864", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628144227625",
+      "highestBid": "515.55",
+      "lowestAsk": "570",
+      "rate": "515.55",
+      "previousRate": "560.74"
+    },
+    "XBX-BTC": {
+      "market": {
+        "code": "XBX-BTC",
+        "first": { "currency": "XBX", "minOffer": "12", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628037314708",
+      "highestBid": "0.00000025",
+      "lowestAsk": "0.00000028",
+      "rate": "0.00000025",
+      "previousRate": "0.00000027"
+    },
+    "ENJ-USDT": {
+      "market": {
+        "code": "ENJ-USDT",
+        "first": { "currency": "ENJ", "minOffer": "0.088", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154162686",
+      "highestBid": "1.33876",
+      "lowestAsk": "1.433896",
+      "rate": "1.330399",
+      "previousRate": "1.38845"
+    },
+    "LUNA-EUR": {
+      "market": {
+        "code": "LUNA-EUR",
+        "first": { "currency": "LUNA", "minOffer": "0.0558", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152429156",
+      "highestBid": "12.14",
+      "lowestAsk": "13.16",
+      "rate": "11.11",
+      "previousRate": "13.1"
+    },
+    "BOB-EUR": {
+      "market": {
+        "code": "BOB-EUR",
+        "first": { "currency": "BOB", "minOffer": "450", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1621069733037",
+      "highestBid": null,
+      "lowestAsk": "0.01",
+      "rate": "0.01",
+      "previousRate": "0.02"
+    },
+    "PAY-BTC": {
+      "market": {
+        "code": "PAY-BTC",
+        "first": { "currency": "PAY", "minOffer": "1.9", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628143498358",
+      "highestBid": "0.00000163",
+      "lowestAsk": "0.00000184",
+      "rate": "0.00000163",
+      "previousRate": "0.00000162"
+    },
+    "LSK-EUR": {
+      "market": {
+        "code": "LSK-EUR",
+        "first": { "currency": "LSK", "minOffer": "1.26", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154068888",
+      "highestBid": "2.81",
+      "lowestAsk": "3.4",
+      "rate": "3.43",
+      "previousRate": "2.9"
+    },
+    "UNI-BTC": {
+      "market": {
+        "code": "UNI-BTC",
+        "first": { "currency": "UNI", "minOffer": "0.0051", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628154167883",
+      "highestBid": "0.0005759",
+      "lowestAsk": "0.0005988",
+      "rate": "0.0005915",
+      "previousRate": "0.00056613"
+    },
+    "OMG-EUR": {
+      "market": {
+        "code": "OMG-EUR",
+        "first": { "currency": "OMG", "minOffer": "1.17", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152065730",
+      "highestBid": "3.6",
+      "lowestAsk": "3.88",
+      "rate": "3.61",
+      "previousRate": "3.69"
+    },
+    "LTC-EUR": {
+      "market": {
+        "code": "LTC-EUR",
+        "first": { "currency": "LTC", "minOffer": "0.0369", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154139186",
+      "highestBid": "116.79",
+      "lowestAsk": "119.49",
+      "rate": "117.02",
+      "previousRate": "119.64"
+    },
+    "BTC-PLN": {
+      "market": {
+        "code": "BTC-PLN",
+        "first": { "currency": "BTC", "minOffer": "0.0000297", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154167771",
+      "highestBid": "148505.01",
+      "lowestAsk": "149099.99",
+      "rate": "149072.67",
+      "previousRate": "148787.36"
+    },
+    "ALG-PLN": {
+      "market": {
+        "code": "ALG-PLN",
+        "first": { "currency": "ALG", "minOffer": "4.5", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154169726",
+      "highestBid": "0.98",
+      "lowestAsk": "0.99",
+      "rate": "1",
+      "previousRate": "0.98"
+    },
+    "TRX-BTC": {
+      "market": {
+        "code": "TRX-BTC",
+        "first": { "currency": "TRX", "minOffer": "1.7", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628153685011",
+      "highestBid": "0.00000178",
+      "lowestAsk": "0.00000181",
+      "rate": "0.0000018",
+      "previousRate": "0.00000179"
+    },
+    "UNI-EUR": {
+      "market": {
+        "code": "UNI-EUR",
+        "first": { "currency": "UNI", "minOffer": "0.18", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154162683",
+      "highestBid": "17.37",
+      "lowestAsk": "24.95",
+      "rate": "24.92",
+      "previousRate": "18.84"
+    },
+    "GRT-GBP": {
+      "market": {
+        "code": "GRT-GBP",
+        "first": { "currency": "GRT", "minOffer": "1.08", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1627952538382",
+      "highestBid": "0.45",
+      "lowestAsk": "0.54",
+      "rate": "0.5",
+      "previousRate": "0.4"
+    },
+    "SUSHI-EUR": {
+      "market": {
+        "code": "SUSHI-EUR",
+        "first": { "currency": "SUSHI", "minOffer": "0.819", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153785982",
+      "highestBid": "6.04",
+      "lowestAsk": "9",
+      "rate": "5.48",
+      "previousRate": "5.2"
+    },
+    "BTC-USDT": {
+      "market": {
+        "code": "BTC-USDT",
+        "first": { "currency": "BTC", "minOffer": "0.0000031", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154163878",
+      "highestBid": "38503.48",
+      "lowestAsk": "38583.469999",
+      "rate": "38543.49",
+      "previousRate": "38543.47"
+    },
+    "SUSHI-USDT": {
+      "market": {
+        "code": "SUSHI-USDT",
+        "first": { "currency": "SUSHI", "minOffer": "0.014", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628153866853",
+      "highestBid": "8.405843",
+      "lowestAsk": "8.679768",
+      "rate": "8.933916",
+      "previousRate": "8.405843"
+    },
+    "PAY-PLN": {
+      "market": {
+        "code": "PAY-PLN",
+        "first": { "currency": "PAY", "minOffer": "16.2", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153684311",
+      "highestBid": "0.26",
+      "lowestAsk": "0.28",
+      "rate": "0.27",
+      "previousRate": "0.28"
+    },
+    "XLM-EUR": {
+      "market": {
+        "code": "XLM-EUR",
+        "first": { "currency": "XLM", "minOffer": "19.8", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628148100410",
+      "highestBid": "0.22",
+      "lowestAsk": "0.24",
+      "rate": "0.22",
+      "previousRate": "0.24"
+    },
+    "MANA-EUR": {
+      "market": {
+        "code": "MANA-EUR",
+        "first": { "currency": "MANA", "minOffer": "6.84", "scale": 8 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154137668",
+      "highestBid": "0.6",
+      "lowestAsk": "0.65",
+      "rate": "0.65",
+      "previousRate": "0.5"
+    },
+    "EOS-EUR": {
+      "market": {
+        "code": "EOS-EUR",
+        "first": { "currency": "EOS", "minOffer": "1.26", "scale": 4 },
+        "second": { "currency": "EUR", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153880114",
+      "highestBid": "3.24",
+      "lowestAsk": "5.5",
+      "rate": "3.39",
+      "previousRate": "3.2"
+    },
+    "GNT-ETH": {
+      "market": {
+        "code": "GNT-ETH",
+        "first": { "currency": "GNT", "minOffer": "0.26", "scale": 8 },
+        "second": { "currency": "ETH", "minOffer": "0.0000432", "scale": 8 }
+      },
+      "time": "1628149899465",
+      "highestBid": "0.000124",
+      "lowestAsk": "0.00016899",
+      "rate": "0.00016663",
+      "previousRate": "0.000169"
+    },
+    "LUNA-GBP": {
+      "market": {
+        "code": "LUNA-GBP",
+        "first": { "currency": "LUNA", "minOffer": "0.135", "scale": 8 },
+        "second": { "currency": "GBP", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154120878",
+      "highestBid": "9.11",
+      "lowestAsk": "12",
+      "rate": "8.8",
+      "previousRate": "8.45"
+    },
+    "LSK-USDT": {
+      "market": {
+        "code": "LSK-USDT",
+        "first": { "currency": "LSK", "minOffer": "0.034", "scale": 8 },
+        "second": { "currency": "USDT", "minOffer": "0.117", "scale": 6 }
+      },
+      "time": "1628154159168",
+      "highestBid": "3.430001",
+      "lowestAsk": "3.598199",
+      "rate": "3.4721",
+      "previousRate": "3.4759"
+    },
+    "BSV-USD": {
+      "market": {
+        "code": "BSV-USD",
+        "first": { "currency": "BSV", "minOffer": "0.036", "scale": 8 },
+        "second": { "currency": "USD", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628153623663",
+      "highestBid": "130.12",
+      "lowestAsk": "153.88",
+      "rate": "122.01",
+      "previousRate": "137.19"
+    },
+    "EOS-PLN": {
+      "market": {
+        "code": "EOS-PLN",
+        "first": { "currency": "EOS", "minOffer": "0.279", "scale": 4 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628154115224",
+      "highestBid": "15.55",
+      "lowestAsk": "15.66",
+      "rate": "15.68",
+      "previousRate": "15.96"
+    },
+    "GNT-PLN": {
+      "market": {
+        "code": "GNT-PLN",
+        "first": { "currency": "GNT", "minOffer": "2.61", "scale": 8 },
+        "second": { "currency": "PLN", "minOffer": "5", "scale": 2 }
+      },
+      "time": "1628152349045",
+      "highestBid": "1.65",
+      "lowestAsk": "1.68",
+      "rate": "1.69",
+      "previousRate": "1.6"
+    },
+    "PUNDIX-BTC": {
+      "market": {
+        "code": "PUNDIX-BTC",
+        "first": { "currency": "PUNDIX", "minOffer": "0.065", "scale": 8 },
+        "second": { "currency": "BTC", "minOffer": "0.00000297", "scale": 8 }
+      },
+      "time": "1628152936092",
+      "highestBid": "0.00004",
+      "lowestAsk": "0.000043",
+      "rate": "0.00004599",
+      "previousRate": "0.000044"
+    }
+  }
+}

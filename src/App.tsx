@@ -6,56 +6,110 @@ import { useState } from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
-import { Grid } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 
-const ENDPOINT = "https://api.bitbay.net/rest/trading/orderbook/BTC-PLN";
+import { v4 as uuidv4 } from "uuid";
+
+const ENDPOINT = "https://api.bitbay.net/rest/trading/";
+const defaultCodeList = ["BTC-PLN"];
 
 function App() {
-  console.log(1);
   const [data, setData] = useState<any>({});
   const [limit, setLimit] = useState(3);
-  // const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0);
 
+  const [codesList, setCodesList] = useState<any>(defaultCodeList);
+  const [codeListIndex, setCodeListIndex] = useState(0);
+
+  const [code1, code2] = codesList[codeListIndex].split("-");
   const { status, sell, buy, secNo, timestamp } = data;
 
+  // initial api call
+  useEffect(() => {
+    axios
+      .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
+      .then((res) => {
+        setData(res.data);
+        setCounter((prevCounter) => prevCounter + 1);
+      })
+      .catch((err) => setData(err));
+
+    // get currency codes list
+    axios.get(`${ENDPOINT}ticker`).then((res) => {
+      setCodesList([...defaultCodeList, ...Object.keys(res.data.items)]);
+    });
+    // .catch((err) => setData(err));
+  }, [code1, code2]);
+
+  // update list as soon as data are back from api
   // useEffect(() => {
   //   axios
-  //     .get(ENDPOINT)
+  //        .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
   //     .then((res) => {
-  //       console.log(2);
   //       setData(res.data);
+  //       setCounter((prevCounter) => prevCounter + 1);
   //     })
   //     .catch((err) => setData(err));
-  // }, [data]);
+  // }, [counter,codeListIndex]);
 
+  // update list every 5sek data are back from api
   useEffect(() => {
+    if (counter === 0) return;
+
     let interval: ReturnType<typeof setInterval>;
 
     interval = setInterval(() => {
       console.log("call");
       axios
-        .get(ENDPOINT)
+        .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
         .then((res) => {
           setData(res.data);
-          // setLimit((p) => p + 1);
+          setCounter((prevCounter) => prevCounter + 1);
         })
         .catch((err) => setData(err));
-    }, 100000);
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, [data]);
+  }, [counter, codeListIndex]);
 
   return (
     <React.Fragment>
       <CssBaseline />
+
+      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+      {/* <pre>{JSON.stringify(codesList, null, 2)}</pre> */}
+
       <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            Title
+            <Typography variant="h4" gutterBottom component="h1" align="center">
+              OrderBook
+            </Typography>
+
+            <Grid container spacing={2}>
+              {[
+                `${code1}-${code2}`,
+                "Spread : 234234234",
+                "24h: max, 24h: min",
+              ].map((x) => (
+                <Grid item xs={4}>
+                  <Typography
+                    variant="h5"
+                    gutterBottom
+                    component="h2"
+                    align="center"
+                  >
+                    {x}
+                  </Typography>
+                </Grid>
+              ))}
+            </Grid>
           </Grid>
 
           <Grid item xs={6}>
-            Sell
+            <Typography variant="h6" gutterBottom component="h3" align="center">
+              Sell
+            </Typography>
             {sell &&
               sell.slice(0, limit).map((item: any, i: number) => {
                 const { ra, ca, co } = item;
@@ -75,12 +129,16 @@ function App() {
                       {ra}
                     </div>
                     <div>
-                      <p>AMOUNT BTC</p>
+                      <p>
+                        AMOUNT <strong>{code1}</strong>
+                      </p>
                       {ca}
                     </div>
                     <div>
-                      <p>Price PLN</p>
-                      {(ra * ca).toFixed(2)} PLN
+                      <p>
+                        Price <strong>{code2}</strong>
+                      </p>
+                      {(ra * ca).toFixed(2)} <strong>{code2}</strong>
                     </div>
                     <div>
                       <p>Ilość ofert</p>
@@ -91,7 +149,9 @@ function App() {
               })}
           </Grid>
           <Grid item xs={6}>
-            Buy
+            <Typography variant="h6" gutterBottom component="h3" align="center">
+              Buy
+            </Typography>
             {buy &&
               buy.slice(0, limit).map((item: any, i: number) => {
                 const { ra, ca, co } = item;
@@ -111,12 +171,16 @@ function App() {
                       {ra}
                     </div>
                     <div>
-                      <p>AMOUNT BTC</p>
+                      <p>
+                        AMOUNT <strong>{code1}</strong>
+                      </p>
                       {ca}
                     </div>
                     <div>
-                      <p>Price PLN</p>
-                      {(ra * ca).toFixed(2)} PLN
+                      <p>
+                        Price <strong>{code2}</strong>
+                      </p>
+                      {(ra * ca).toFixed(2)} <strong>{code2}</strong>
                     </div>
                     <div>
                       <p>Ilość ofert</p>
@@ -127,8 +191,6 @@ function App() {
               })}
           </Grid>
         </Grid>
-
-        {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
       </Container>
     </React.Fragment>
   );

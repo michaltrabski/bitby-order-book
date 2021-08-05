@@ -6,7 +6,7 @@ import { useState } from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
-import { Grid, Typography } from "@material-ui/core";
+import { Button, Grid, Typography } from "@material-ui/core";
 
 import { v4 as uuidv4 } from "uuid";
 
@@ -15,8 +15,9 @@ const defaultCodeList = ["BTC-PLN"];
 
 function App() {
   const [data, setData] = useState<any>({});
-  const [limit, setLimit] = useState(3);
+  const [limit, setLimit] = useState(10);
   const [counter, setCounter] = useState(0);
+  console.log("call counter", counter);
 
   const [codesList, setCodesList] = useState<any>(defaultCodeList);
   const [codeListIndex, setCodeListIndex] = useState(0);
@@ -59,7 +60,6 @@ function App() {
     let interval: ReturnType<typeof setInterval>;
 
     interval = setInterval(() => {
-      console.log("call");
       axios
         .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
         .then((res) => {
@@ -191,6 +191,16 @@ function App() {
               })}
           </Grid>
         </Grid>
+        <Box sx={{ mb: 5 }}>
+          <Button
+            variant="contained"
+            size="large"
+            fullWidth
+            onClick={() => setLimit((p) => p + 10)}
+          >
+            Show more
+          </Button>
+        </Box>
       </Container>
     </React.Fragment>
   );

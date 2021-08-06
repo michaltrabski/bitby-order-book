@@ -27,6 +27,7 @@ function App() {
   const [data, setData] = useState<OrderBook>();
   const [limit, setLimit] = useState(10);
   const [counter, setCounter] = useState(0);
+  const [dataLoaded, setDataLoaded] = useState(false);
   console.log("call counter", counter);
 
   const [codesList, setCodesList] = useState(defaultCodeList);
@@ -44,6 +45,7 @@ function App() {
       .then((res) => {
         setData(res.data);
         setCounter((prevCounter) => prevCounter + 1);
+        setDataLoaded(true);
       })
       .catch((err) => setData(err));
 
@@ -63,9 +65,9 @@ function App() {
   //       setCounter((prevCounter) => prevCounter + 1);
   //     })
   //     .catch((err) => setData(err));
-  // }, [counter, code, code]);
+  // }, [counter, code]);
 
-  // update list every 5sek data are back from api
+  // update list every 2sek data are back from api
   useEffect(() => {
     if (counter === 0) return;
 
@@ -79,12 +81,13 @@ function App() {
           setCounter((prevCounter) => prevCounter + 1);
         })
         .catch((err) => setData(err));
-    }, 4000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, [counter, code]);
 
   const changeCode = (newCode: string) => {
+    setDataLoaded(false);
     setCode(newCode);
   };
   return (
@@ -131,49 +134,76 @@ function App() {
             </Grid>
           </Grid>
 
-          <Grid item xs={12} md={6}>
-            <Typography variant="h6" gutterBottom component="h3" align="center">
-              Sell
-            </Typography>
-            {sell &&
-              sell.slice(0, limit).map((data, i: number) => (
-                <Box
-                  key={i}
-                  sx={{
-                    mb: 1,
-                  }}
+          {!dataLoaded ? (
+            <Grid item xs={12}>
+              <Typography
+                variant="h6"
+                gutterBottom
+                component="h3"
+                align="center"
+              >
+                Loading Data ...
+              </Typography>
+            </Grid>
+          ) : (
+            <>
+              <Grid item xs={12} md={6}>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  component="h3"
+                  align="center"
                 >
-                  <MyCard data={data} />
-                </Box>
-              ))}
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h6" gutterBottom component="h3" align="center">
-              Buy
-            </Typography>
-            {buy &&
-              buy.slice(0, limit).map((data, i: number) => (
-                <Box
-                  key={i}
-                  sx={{
-                    mb: 1,
-                  }}
+                  Sell
+                </Typography>
+                {sell &&
+                  sell.slice(0, limit).map((data, i: number) => (
+                    <Box
+                      key={i}
+                      sx={{
+                        mb: 1,
+                      }}
+                    >
+                      <MyCard data={data} />
+                    </Box>
+                  ))}
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  component="h3"
+                  align="center"
                 >
-                  <MyCard data={data} />
-                </Box>
-              ))}
-          </Grid>
+                  Buy
+                </Typography>
+                {buy &&
+                  buy.slice(0, limit).map((data, i: number) => (
+                    <Box
+                      key={i}
+                      sx={{
+                        mb: 1,
+                      }}
+                    >
+                      <MyCard data={data} />
+                    </Box>
+                  ))}
+              </Grid>
+            </>
+          )}
         </Grid>
-        <Box sx={{ mb: 5 }}>
-          <Button
-            variant="contained"
-            size="large"
-            fullWidth
-            onClick={() => setLimit((p) => p + 10)}
-          >
-            Show more
-          </Button>
-        </Box>
+        {dataLoaded && (
+          <Box sx={{ mb: 5 }}>
+            <Button
+              variant="contained"
+              size="large"
+              fullWidth
+              onClick={() => setLimit((p) => p + 10)}
+            >
+              Show more
+            </Button>
+          </Box>
+        )}
       </Container>
     </React.Fragment>
   );

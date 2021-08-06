@@ -9,10 +9,12 @@ import Container from "@material-ui/core/Container";
 import { Button, Grid, Typography } from "@material-ui/core";
 import MyCard, { SellBuy } from "./components/MyCard";
 import { v4 as uuidv4 } from "uuid";
+import MySelect from "./components/MySelect";
 
 const ENDPOINT = "https://api.bitbay.net/rest/trading/";
 
-const defaultCodeList: string[] = ["BTC-PLN"];
+export type CodesList = string[];
+const defaultCodeList: CodesList = ["BTC-PLN"];
 
 interface OrderBook {
   status: string;
@@ -28,9 +30,9 @@ function App() {
   console.log("call counter", counter);
 
   const [codesList, setCodesList] = useState(defaultCodeList);
-  const [codeListIndex, setCodeListIndex] = useState(0);
+  const [code, setCode] = useState(defaultCodeList[0]);
 
-  const [code1, code2] = codesList[codeListIndex].split("-");
+  // const code = codesList[codeListIndex];
 
   const sell = data?.sell;
   const buy = data?.buy;
@@ -38,7 +40,7 @@ function App() {
   // initial api call
   useEffect(() => {
     axios
-      .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
+      .get<OrderBook>(`${ENDPOINT}orderbook/${code}`)
       .then((res) => {
         setData(res.data);
         setCounter((prevCounter) => prevCounter + 1);
@@ -47,21 +49,21 @@ function App() {
 
     // get currency codes list
     axios.get(`${ENDPOINT}ticker`).then((res) => {
-      setCodesList([...defaultCodeList, ...Object.keys(res.data.items)]);
+      setCodesList(Object.keys(res.data.items));
     });
     // .catch((err) => setData(err));
-  }, [code1, code2]);
+  }, [code]);
 
   // update list as soon as data are back from api
   // useEffect(() => {
   //   axios
-  //     .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
+  //     .get<OrderBook>(`${ENDPOINT}orderbook/${code}`)
   //     .then((res) => {
   //       setData(res.data);
   //       setCounter((prevCounter) => prevCounter + 1);
   //     })
   //     .catch((err) => setData(err));
-  // }, [counter, codeListIndex, code1, code2]);
+  // }, [counter, code, code]);
 
   // update list every 5sek data are back from api
   useEffect(() => {
@@ -71,7 +73,7 @@ function App() {
 
     interval = setInterval(() => {
       axios
-        .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
+        .get<OrderBook>(`${ENDPOINT}orderbook/${code}`)
         .then((res) => {
           setData(res.data);
           setCounter((prevCounter) => prevCounter + 1);
@@ -80,8 +82,11 @@ function App() {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [counter, codeListIndex, code1, code2]);
+  }, [counter, code]);
 
+  const changeCode = (newCode: string) => {
+    setCode(newCode);
+  };
   return (
     <React.Fragment>
       <CssBaseline />
@@ -97,12 +102,22 @@ function App() {
             </Typography>
 
             <Grid container spacing={2}>
-              {[
-                `${code1}-${code2}`,
-                "Spread : 123456.78",
-                "24h: max, 24h: min",
-              ].map((x) => (
-                <Grid item xs={4}>
+              <Grid item xs={12} md={4}>
+                <Typography
+                  variant="h5"
+                  gutterBottom
+                  component="h2"
+                  align="center"
+                >
+                  <MySelect
+                    code={code}
+                    codesList={codesList}
+                    changeCode={changeCode}
+                  />
+                </Typography>
+              </Grid>
+              {["Spread : 123456.78", "24h: max, 24h: min"].map((x) => (
+                <Grid item xs={12} md={4}>
                   <Typography
                     variant="h5"
                     gutterBottom
@@ -116,7 +131,7 @@ function App() {
             </Grid>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <Typography variant="h6" gutterBottom component="h3" align="center">
               Sell
             </Typography>
@@ -132,7 +147,7 @@ function App() {
                 </Box>
               ))}
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <Typography variant="h6" gutterBottom component="h3" align="center">
               Buy
             </Typography>

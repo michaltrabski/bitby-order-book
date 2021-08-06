@@ -7,28 +7,38 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
 import { Button, Grid, Typography } from "@material-ui/core";
-
+import MyCard, { SellBuy } from "./components/MyCard";
 import { v4 as uuidv4 } from "uuid";
 
 const ENDPOINT = "https://api.bitbay.net/rest/trading/";
-const defaultCodeList = ["BTC-PLN"];
 
+const defaultCodeList: string[] = ["BTC-PLN"];
+
+interface OrderBook {
+  status: string;
+  sell: SellBuy[];
+  buy: SellBuy[];
+  timestamp: number;
+  seqNo: number;
+}
 function App() {
-  const [data, setData] = useState<any>({});
+  const [data, setData] = useState<OrderBook>();
   const [limit, setLimit] = useState(10);
   const [counter, setCounter] = useState(0);
   console.log("call counter", counter);
 
-  const [codesList, setCodesList] = useState<any>(defaultCodeList);
+  const [codesList, setCodesList] = useState(defaultCodeList);
   const [codeListIndex, setCodeListIndex] = useState(0);
 
   const [code1, code2] = codesList[codeListIndex].split("-");
-  const { status, sell, buy, secNo, timestamp } = data;
+
+  const sell = data?.sell;
+  const buy = data?.buy;
 
   // initial api call
   useEffect(() => {
     axios
-      .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
+      .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
       .then((res) => {
         setData(res.data);
         setCounter((prevCounter) => prevCounter + 1);
@@ -45,13 +55,13 @@ function App() {
   // update list as soon as data are back from api
   // useEffect(() => {
   //   axios
-  //        .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
+  //     .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
   //     .then((res) => {
   //       setData(res.data);
   //       setCounter((prevCounter) => prevCounter + 1);
   //     })
   //     .catch((err) => setData(err));
-  // }, [counter,codeListIndex]);
+  // }, [counter, codeListIndex, code1, code2]);
 
   // update list every 5sek data are back from api
   useEffect(() => {
@@ -61,16 +71,16 @@ function App() {
 
     interval = setInterval(() => {
       axios
-        .get(`${ENDPOINT}orderbook/${code1}-${code2}`)
+        .get<OrderBook>(`${ENDPOINT}orderbook/${code1}-${code2}`)
         .then((res) => {
           setData(res.data);
           setCounter((prevCounter) => prevCounter + 1);
         })
         .catch((err) => setData(err));
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
-  }, [counter, codeListIndex]);
+  }, [counter, codeListIndex, code1, code2]);
 
   return (
     <React.Fragment>
@@ -89,7 +99,7 @@ function App() {
             <Grid container spacing={2}>
               {[
                 `${code1}-${code2}`,
-                "Spread : 234234234",
+                "Spread : 123456.78",
                 "24h: max, 24h: min",
               ].map((x) => (
                 <Grid item xs={4}>
@@ -111,84 +121,32 @@ function App() {
               Sell
             </Typography>
             {sell &&
-              sell.slice(0, limit).map((item: any, i: number) => {
-                const { ra, ca, co } = item;
-                return (
-                  <Box
-                    key={i}
-                    sx={{
-                      mb: 8,
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* EXCHANGE RATE AMOUNT BTC PRICE USD */}
-                    <div>
-                      <p>EXCHANGE RATE</p>
-                      {ra}
-                    </div>
-                    <div>
-                      <p>
-                        AMOUNT <strong>{code1}</strong>
-                      </p>
-                      {ca}
-                    </div>
-                    <div>
-                      <p>
-                        Price <strong>{code2}</strong>
-                      </p>
-                      {(ra * ca).toFixed(2)} <strong>{code2}</strong>
-                    </div>
-                    <div>
-                      <p>Ilość ofert</p>
-                      {co}
-                    </div>
-                  </Box>
-                );
-              })}
+              sell.slice(0, limit).map((data, i: number) => (
+                <Box
+                  key={i}
+                  sx={{
+                    mb: 1,
+                  }}
+                >
+                  <MyCard data={data} />
+                </Box>
+              ))}
           </Grid>
           <Grid item xs={6}>
             <Typography variant="h6" gutterBottom component="h3" align="center">
               Buy
             </Typography>
             {buy &&
-              buy.slice(0, limit).map((item: any, i: number) => {
-                const { ra, ca, co } = item;
-                return (
-                  <Box
-                    key={i}
-                    sx={{
-                      mb: 8,
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                    }}
-                  >
-                    {/* EXCHANGE RATE AMOUNT BTC PRICE USD */}
-                    <div>
-                      <p>EXCHANGE RATE</p>
-                      {ra}
-                    </div>
-                    <div>
-                      <p>
-                        AMOUNT <strong>{code1}</strong>
-                      </p>
-                      {ca}
-                    </div>
-                    <div>
-                      <p>
-                        Price <strong>{code2}</strong>
-                      </p>
-                      {(ra * ca).toFixed(2)} <strong>{code2}</strong>
-                    </div>
-                    <div>
-                      <p>Ilość ofert</p>
-                      {co}
-                    </div>
-                  </Box>
-                );
-              })}
+              buy.slice(0, limit).map((data, i: number) => (
+                <Box
+                  key={i}
+                  sx={{
+                    mb: 1,
+                  }}
+                >
+                  <MyCard data={data} />
+                </Box>
+              ))}
           </Grid>
         </Grid>
         <Box sx={{ mb: 5 }}>
